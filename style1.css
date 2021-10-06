@@ -33,7 +33,8 @@ body {
 .register-left img{
     margin-top: 15%;
     margin-bottom: 5%;
-    width: 25%;
+    width: 150%;
+    margin-left: -60px;
     -webkit-animation: mover 2s infinite  alternate;
     animation: mover 1s infinite  alternate;
 }
@@ -98,4 +99,6 @@ body {
     margin-bottom: -15%;
     color: #495057;
 }
-
+.indeximg{
+    min-width:100px ;
+}
