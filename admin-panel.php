@@ -426,6 +426,7 @@ function get_specs(){
                       <option value="08:00:00">8:00 AM</option>
                       <option value="08:05:00">8:05 AM</option>
                       <option value="08:10:00">8:10 AM</option>
+                      
                       <option value="08:15:00">8:15 AM</option>
                       <option value="08:20:00">8:20 AM</option>
                       <option value="08:25:00">8:25 AM</option>
