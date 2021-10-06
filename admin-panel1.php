@@ -265,12 +265,13 @@ if(isset($_POST['docsub1']))
                       $spec = $row['spec'];
                       $email = $row['email'];
                       $password = $row['password'];
-                      $docFees = $row['docFees'];
+                      
                       
                       echo "<tr>
                         <td>$username</td>
                         <td>$spec</td>
                         <td>$email</td>
+                        <td>$password</td>
                         
                         
                       </tr>";
@@ -283,9 +284,10 @@ if(isset($_POST['docsub1']))
       </div>
     
 
-    <div class="tab-pane fade" id="list-pat" role="tabpanel" aria-labelledby="list-pat-list">
+      <div class="tab-pane fade" id="list-pat" role="tabpanel" aria-labelledby="list-pat-list">
 
-       <div class="col-md-8">
+
+             <div class="col-md-8">
       <form class="form-group" action="patientsearch.php" method="post">
         <div class="row">
         <div class="col-md-10"><input type="text" name="patient_contact" placeholder="Enter Contact" class = "form-control"></div>
@@ -327,7 +329,7 @@ if(isset($_POST['docsub1']))
                         <td>$gender</td>
                         <td>$email</td>
                         <td>$contact</td>
-                        <td>$password</td>
+                        
                       </tr>";
                     }
 
